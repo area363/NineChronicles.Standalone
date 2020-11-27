@@ -3,7 +3,7 @@ name: deploy github packages (docker)
 on: 
   push:
     branches:
-      - main
+      - ghpackages-test
 
 jobs:
   build_and_push:
