@@ -57,7 +57,7 @@ namespace NineChronicles.Headless
             services.TryAddSingleton<NodeStateType<T>>();
             services.TryAddSingleton<BlockQuery<T>>();
             services.TryAddSingleton<TransactionQuery<T>>();
-            services.TryAddSingleton<ExplorerQuery<T>>();
+            services.TryAddSingleton<Query<T>>();
 
             return services;
         }
